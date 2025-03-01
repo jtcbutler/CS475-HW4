@@ -1,9 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Iinclude -g
-
 BUILD_DIR=out
 SOURCE_DIR=src
-
 TARGET=dsh
 
 default: main.o dsh.o valid_malloc.o dynamic_string.o pid_list.o
