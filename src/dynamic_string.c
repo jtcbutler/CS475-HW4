@@ -64,7 +64,7 @@ void DynamicString_clear(DynamicString *string)
 	string->content[0] = '\0';
 }
 
-void DynamicString_free(DynamicString *string)
+void DynamicString_deinit(DynamicString *string)
 {
 	// free the buffer used to hold <string>s contents
 	free(string->content);

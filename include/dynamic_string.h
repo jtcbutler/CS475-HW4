@@ -59,6 +59,6 @@ void DynamicString_clear(DynamicString *string);
  *
  * @arg DynamicString* <string> - the DynamicString to deinitialize
 */
-void DynamicString_free(DynamicString *string);
+void DynamicString_deinit(DynamicString *string);
 
 #endif
